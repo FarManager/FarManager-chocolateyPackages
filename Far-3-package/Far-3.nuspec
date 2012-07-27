@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>Far-3</id>
+    <title>FarManager 3.0 x64</title>
+    <version>3.0.2779.20120727</version>
+    <authors>Eugene Roshal,Far Group</authors>
+    <owners>Justin Dearing</owners>
+    <summary>File and Archive Manager</summary>
+    <description>Far Manager is a program for managing files and archives in Windows operating systems. Far Manager works in text mode and provides a simple and intuitive interface for performing most of the necessary actions.</description>
+    <projectUrl>http://farmanager.com</projectUrl>
+    <tags>admin,console,archiver</tags>
+    <licenseUrl>http://farmanager.com/license.php?l=en</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance> <!-- or true if you require the user to accept the License before installing -->
+    <iconUrl>http://farmanager.com/favicon.ico</iconUrl>
+  </metadata>
+</package>

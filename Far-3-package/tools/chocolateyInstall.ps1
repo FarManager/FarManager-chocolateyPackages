@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'Far-3' 'msi' '/quiet' 'http://farmanager.com/nightly/Far30b2779.x86.20120727.msi' 'http://farmanager.com/nightly/Far30b2779.x64.20120727.msi'
