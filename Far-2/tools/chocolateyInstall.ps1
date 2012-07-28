@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'Far-2' 'msi' '/quiet  ADDLOCAL=Addons,Colors,Macros,SetUp,Shell,XLat' 'http://farmanager.com/files/Far20b1807.x86.20110203.msi' 'http://farmanager.com/files/Far20b1807.x64.20110203.msi'
