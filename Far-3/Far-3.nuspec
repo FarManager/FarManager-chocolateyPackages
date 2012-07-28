@@ -2,8 +2,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Far-3</id>
-    <title>FarManager 3.0 x64</title>
-    <version>3.0.2779.20120727</version>
+    <title>FarManager 3.0</title>
+    <version>3.0.2779</version>
     <authors>Eugene Roshal,Far Group</authors>
     <owners>Justin Dearing</owners>
     <summary>File and Archive Manager</summary>
