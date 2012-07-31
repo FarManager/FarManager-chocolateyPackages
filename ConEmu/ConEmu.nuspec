@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ConEmu</id>
+    <version>12.4.17</version>
+    <authors>Xavier Decoster</authors>
+    <owners>Xavier Decoster</owners>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+    <projectUrl>http://code.google.com/p/conemu-maximus5/</projectUrl>
+    <iconUrl>http://code.google.com/p/conemu-maximus5/logo?cct=1340271535</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ConEmu-Maximus5 is a Windows console emulator with tabs, which presents multiple consoles and simple GUI applications as one customizable GUI window with various features.</description>
+    <copyright>Copyright ConEmu.Maximus5 2012</copyright>
+    <tags>graphical,console,emulator,tabs,far,plugin,farmanager,filemanager,Windows</tags>
+  </metadata>
+</package>

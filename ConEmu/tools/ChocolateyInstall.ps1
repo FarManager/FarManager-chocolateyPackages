@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'conemu' 'exe' '/S' 'http://conemu-maximus5.googlecode.com/files/ConEmuSetup.120417.exe'
