@@ -1,1 +1,5 @@
-Install-ChocolateyPackage 'Far-3' 'msi' '/quiet  ADDLOCAL=Addons,Colors,Macros,SetUp,Shell,XLat' 'http://farmanager.com/nightly/Far30b2779.x86.20120727.msi' 'http://farmanager.com/nightly/Far30b2779.x64.20120727.msi'
+# The MSI can't be renamed or it won't install. See: http://forum.farmanager.com/viewtopic.php?f=37&t=7989
+if ([IntPtr]::Size -eq 8) { $arch = 'x86' }
+else { $arch = 'x64' }
+$msiName = "Far30b3367.$($arch).20130426.msi"
+Install-ChocolateyPackage $msiName 'msi' '/quiet ADDLOCAL=Addons,Colors,Macros,SetUp,Shell,XLat' "http://farmanager.com/files/$msiName" "http://farmanager.com/files/$msiName"
