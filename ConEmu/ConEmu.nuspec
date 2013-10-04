@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>ConEmu</id>
-    <version>12.4.17.1</version>
-    <authors>Xavier Decoster</authors>
+    <version>13.9.29</version>
+    <authors>Maximus5</authors>
     <owners>Xavier Decoster</owners>
     <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
     <projectUrl>http://code.google.com/p/conemu-maximus5/</projectUrl>
