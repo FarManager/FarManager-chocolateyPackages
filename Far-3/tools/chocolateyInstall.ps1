@@ -1,11 +1,11 @@
 #Changes per version
-$uninstallKey = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AAF36915-D499-429A-B3E7-0AF081AE0523}'
+$uninstallKey = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7F3C23A9-F946-46AA-B20F-49083A201D43}'
 if (Test-Path $uninstallKey) {
     Write-ChocolateyFailure 'Far is already installed!'
 }
 else {
     Install-ChocolateyPackage `
-        "Far-3" 'msi' '/quiet ADDLOCAL=Addons,Colors,Macros,SetUp,Shell,XLat,arclite,FARCmds,NetBox,Compare,EMenu,FarColorer,FileCase,Network,HlfViewer,Proclist,Editor,LuaMacro,TmpPanel' `
-        "http://farmanager.com/files/Far30b3367.x86.20130426.msi" `
-        "http://farmanager.com/files/Far30b3367.x64.20130426.msi"
+        "Far-3" 'msi' '/quiet ADDLOCAL=Addons,Colors,Macros,SetUp,Shell,XLat,arclite,FARCmds,NetBox,Compare,EMenu,FarColorer,FileCase,Network,HlfViewer,Proclist,Editor,LuaMacro,TmpPanel,FarProgramsShortcut' `
+        "http://farmanager.com/files/Far30b3525.x86.20130717.msi" `
+        "http://farmanager.com/files/Far30b3525.x64.20130717.msi"
 }
