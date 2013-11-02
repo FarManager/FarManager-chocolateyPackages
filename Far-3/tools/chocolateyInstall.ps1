@@ -5,7 +5,7 @@ if (Test-Path $uninstallKey) {
 }
 else {
     Install-ChocolateyPackage `
-        "Far-3" 'msi' '/quiet ADDLOCAL=Addons,Colors,Macros,SetUp,Shell,XLat,arclite,FARCmds,NetBox,Compare,EMenu,FarColorer,FileCase,Network,HlfViewer,Proclist,Editor,LuaMacro,TmpPanel,FarProgramsShortcut' `
+        "Far-3" 'msi' '/quiet ADDLOCAL=ALL' `
         "http://farmanager.com/files/Far30b3525.x86.20130717.msi" `
         "http://farmanager.com/files/Far30b3525.x64.20130717.msi"
 }
