@@ -12,7 +12,7 @@
     <tags>admin,console,archiver</tags>
     <licenseUrl>http://farmanager.com/license.php?l=en</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance> <!-- or true if you require the user to accept the License before installing -->
-    <iconUrl>http://farmanager.com/favicon.ico</iconUrl>
+    <iconUrl>https://raw.github.com/FarManager/FarManager-chocolateyPackages/master/Far.png</iconUrl>
     <dependencies>
       <dependency id="Far" version="[3.0.3525.1]" />
     </dependencies>
